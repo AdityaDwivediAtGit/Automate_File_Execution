@@ -1,3 +1,5 @@
+ThisFileName = "File_Autorun_Delay.py"
+
 from time import sleep
 import os
 
@@ -18,7 +20,7 @@ print(Blue + "Files in this directory are mentioned below: " + White)
 # code to list files
 files = []
 for file in os.listdir():
-    if file == "File_Autorun_Delay.py":
+    if file == ThisFileName:
         continue
     if os.path.isfile(file):
         files.append(file)
@@ -60,5 +62,3 @@ for file in files:
             sleep(10)
             exit()
         sleep(Delay)
-
-
