@@ -2,7 +2,7 @@
 This `python` script helps user to automate running multiple files in a sequence with some delay in between.
 Just place all the files you want to execute along with this script and run this script in one directory and execute this script.
 
-This is extremely helpful in cases where you want to execute thousands of files but running all of them at once can cause some files or system may crash due to RAM shortage.
+This is extremely helpful in cases where you want to execute thousands of files but running all of them at once can cause some files or system to crash due to RAM shortage.
 
 # Note
 
